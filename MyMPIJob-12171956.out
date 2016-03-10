@@ -1,0 +1,82 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 12171956
+##  Job Name : MyMPIJob
+##  Nodelist : node109
+##      CPUs : 8
+##   Mem/CPU : 2800 MB
+## Directory : /gpfs/scratch/guest341/hydroidolina
+##   Started : Thu Mar 10 11:19:08 EST 2016
+###############################################################################
+module: loading 'raxml/8.0.22'
+
+This is RAxML MPI Process Number: 0
+The file combined.phy you want to open for reading does not exist, exiting ...
+
+This is RAxML MPI Process Number: 2
+
+This is RAxML MPI Process Number: 6
+
+This is RAxML MPI Process Number: 1
+
+This is RAxML MPI Process Number: 3
+
+This is RAxML MPI Process Number: 5
+
+This is RAxML MPI Process Number: 7
+
+This is RAxML MPI Process Number: 4
+srun: error: node109: tasks 0-7: Exited with exit code 255
+
+This is RAxML MPI Process Number: 1
+
+This is RAxML MPI Process Number: 7
+
+This is RAxML MPI Process Number: 3
+
+This is RAxML MPI Process Number: 4
+
+This is RAxML MPI Process Number: 0
+The file 16s.phy you want to open for reading does not exist, exiting ...
+
+This is RAxML MPI Process Number: 5
+
+This is RAxML MPI Process Number: 2
+
+This is RAxML MPI Process Number: 6
+srun: error: node109: tasks 0-7: Exited with exit code 255
+
+This is RAxML MPI Process Number: 7
+
+This is RAxML MPI Process Number: 3
+
+This is RAxML MPI Process Number: 5
+
+This is RAxML MPI Process Number: 6
+
+This is RAxML MPI Process Number: 0
+The file 18s.phy you want to open for reading does not exist, exiting ...
+
+This is RAxML MPI Process Number: 1
+
+This is RAxML MPI Process Number: 4
+
+This is RAxML MPI Process Number: 2
+srun: error: node109: tasks 0-7: Exited with exit code 255
+
+This is RAxML MPI Process Number: 1
+
+This is RAxML MPI Process Number: 7
+
+This is RAxML MPI Process Number: 3
+
+This is RAxML MPI Process Number: 5
+
+This is RAxML MPI Process Number: 6
+
+This is RAxML MPI Process Number: 0
+The file 28s.phy you want to open for reading does not exist, exiting ...
+
+This is RAxML MPI Process Number: 4
+
+This is RAxML MPI Process Number: 2
+srun: error: node109: tasks 0-7: Exited with exit code 255
