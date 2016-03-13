@@ -1,5 +1,65 @@
 # Hydroidolina Phylogeny Assignment
 
+---
+author: "Bianca Brown"
+
+date: "March 11, 2016"
+
+---
+
+Phylogenetics of Hydroidolina (Hydrozoa: Cnidaria)
+Phylogenetics of Hydroidolina (Hydrozoa: Cnidaria)
+Questions:
+
+####Based on eye-balling the alignments, do you think that each gene has a consistent rate of molecular evolution along its full length?
+No, the genes are going to have different rates of molecular evolution due variation in SNPs and gaps throughout the different seqencues.
+
+####Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has the fastest average rate of molecular evolution? The slowest?
+The fastest average rate of molecular evolution would be 16s and the slowest is 28s.
+
+### 16S Gene Tree
+![alt text](https://raw.githubusercontent.com/Biancabrown/hydroidolina/master/RAxML_bipartitions.16s_boot100.jpg)
+
+### 18S Gene Tree
+![alt text](https://raw.githubusercontent.com/Biancabrown/hydroidolina/master/RAxML_bipartitions.18s_boot100.jpg)
+
+### 28S Gene Tree
+![alt text](https://raw.githubusercontent.com/Biancabrown/hydroidolina/master/RAxML_bipartitions.28s_boot100.jpg)
+
+### 16S, 18S and 28S Combined Gene Tree
+![alt text](https://raw.githubusercontent.com/Biancabrown/hydroidolina/master/RAxML_bipartitions.combined_boot100.jpg)
+
+####Do the trees differ from those published? If so, how?
+
+After rooting the trees the 28s Tree is most similar to the published tree. One key note is that Keophyes ovata is not in any of the gene trees. Instead there is Clausophytes ovata. However, Keophyes is included in the published tree. 
+
+####How do the trees for each gene differ from each other?
+
+The 16s tree did not contain the species Conopora anthohelia. The clade Filifera II, Filifera III, Letothecata and Siphonopohorae are all poorly resolved. Filifera II is split into two with Hydrichthella_epigorgia grouping with Dicaryne_Conybearei. Filifera III us also split into two grous with speices Clavactinia_gallensis nested in the group Leptothecata.  Letothecata also split into two groups. One group contains the Siphonophores Cordagalma_cordiforme and Hippopodius_hippopus while the other group forms a monophyletic clade with just Leptothecata species. 
+
+Overall 18s tree is the least speciose tree. The 18s tree did not contain the following species:
+Lafoea_dumosa
+Aequorea_floridana
+Sertularia_perpusilla
+Hydrallmania_falcata
+Sertularia_cupressina
+Garveia annulaa
+Conopora anthohelia
+Eudendrium capillare
+Zyzzyzus warreni
+Astrohyda japonica
+The subgroup Filifera IV  is poorly resolved in the 18s Tree. The group is split into two with the subgroup Filifera II between them. The group Filifera is also split into two. Eudendrium californicum is found in one of the Filifera IV groups and the Eudendrium racemosumis is found in the other. The position of species Pennaria-disticha is also poorly resolved. Instead of placing the species in the group Capitata, it is placed in the Filifera IV group with Eudendrium racemosumis 
+
+28s tree is the most speciose among the three trees. Also, it is the tree that mostly resembled the published combined tree. The groupse are well resolved.
+
+
+####Take a look at the raxml log files. What do these tells you about the different models of molecular evolution for the four analyses?
+
+I have a question for you about this *
+
+
+
+
 In this assignment you will reanalyze the data from the following paper:
 
 > Cartwright, P., Evans, N. M., Dunn, C. W., Marques, A. C., Miglietta, M. P., 
