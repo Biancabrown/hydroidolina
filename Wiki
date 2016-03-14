@@ -1,0 +1,24 @@
+  GNU nano 2.0.6              File: raxml.sh                                    
+
+#!/bin/bash
+
+# Request an hour of runtime:
+#SBATCH --time=00:03:00
+
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=1
+
+# Specify a job name:
+#SBATCH -J MyMPIJob
+
+# Specify an output file
+#SBATCH -o MyMPIJob-%j.out
+#SBATCH -e MyMPIJob-%j.out
+
+wget en.wikipedia.org
+
+
+
+
+
+wget

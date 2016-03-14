@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --time=00:01:00
+#SBATCH --time=00:03:00
 
 #SBATCH --nodes=1
 
@@ -9,6 +9,6 @@
 #SBATCH -J Hello
 
 #SBATCH -o HelloWorld.out
-#SBATCH -e HelloWorld.out
+#SBATCH -e HelloWorld.err
 
 echo "Hello World"
